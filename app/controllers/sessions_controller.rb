@@ -23,6 +23,7 @@ class SessionsController < ApplicationController
                 user: @current_user
             }
         else
+            # note
             render json: {
                 logged_in: false
             }
