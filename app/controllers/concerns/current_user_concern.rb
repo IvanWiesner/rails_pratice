@@ -1,5 +1,5 @@
 module CurrentUserConcern
-    # extend h
+    # extend h d
     extend ActiveSupport::Concern
 
     included do 
